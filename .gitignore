@@ -1,0 +1,10 @@
+# data and model artifacts
+flores200/
+lora_adapter/
+*.safetensors
+*.bin
+# python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+.DS_Store

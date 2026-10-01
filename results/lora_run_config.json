@@ -1,0 +1,29 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "seed": 42,
+  "train_source": "wikimedia/wikipedia (20231101.am)",
+  "n_train_paragraphs": 10000,
+  "train_tokens": 1782423,
+  "max_len": 384,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "lr": 0.0002,
+  "epochs": 1,
+  "batch_size": 4,
+  "grad_acc": 4,
+  "steps": 625,
+  "trainable_params": 2162688,
+  "total_params": 496195456,
+  "train_minutes": 13.0,
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu128",
+  "eval_dataset": "FLORES-200 devtest",
+  "eval_pairs": 1012
+}

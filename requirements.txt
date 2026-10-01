@@ -1,0 +1,9 @@
+# Versions were not pinned in the original Colab run (latest at the time, Python 3.13, T4).
+torch
+transformers
+peft
+datasets
+accelerate
+numpy
+pandas
+matplotlib
